@@ -20,7 +20,7 @@ spriteDefinition = {
 }
 pg.init()
 screen = pg.display.set_mode((1200,300),0,32)
-sprite = pg.image.load(r'C:\Users\evanxephon\Desktop\Trex\%s'%(sprite_image_filename)).convert()
+sprite = pg.image.load(r'\Image\%s'%(sprite_image_filename)).convert()
 
 
 class Background:
